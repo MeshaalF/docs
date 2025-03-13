@@ -22,13 +22,11 @@
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Guides",
             "pages": [
-              "essentials/segments"
-              "essentials/segment-criteria"
-              "essentials/action-template"
-              "essentials/action-create"
-              "essentials/action-criteria"
+              "Guides/segments",
+              "Guides/action-template",
+              "Guides/action-create"
             ]
           }
         ]

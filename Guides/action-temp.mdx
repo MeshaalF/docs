@@ -1,0 +1,49 @@
+---
+title: "Create an Agent from template"
+description: "Agents are automated workflows that process segmented data to generate insights and execute predefined actions. Each workflow consists of a structured sequence of steps, configurations, and logic links that drive automation."
+---
+
+Quantuma offers a comprehensive library of workflow templates, enabling quick deployment of common banking use cases. These templates not only accelerate workflow creation but also serve as a reference for potential automations that can benefit your organization.
+
+This guide will walk you through the process of creating a new workflow using a template.
+
+### Before you begin
+
+Ensure at least one connector and data model are set up before creating a workflow.
+In this example, we use BigQuery integration with a B2B data model.
+
+<Steps>
+  <Step title="Open Select Agent Page">
+    Go to the Agents workspace home screen and click **'Create Agent'** to open the Segment Builder, where you can configure all settings for your new segment.
+  </Step>
+
+  <Step title="Select a Template">
+    This will take you to a library of workflow templates and an option to create a workflow from scratch.
+
+    We will select a predefined template to streamline the workflow creation process.
+  </Step>
+
+  <Step title="Configure Template Setting">
+    The workflow template is structured into two main sections:
+
+    * Left Panel – Nodes: This section contains the building blocks of the workflow. Nodes define the steps, logic, and execution method, determining whether the workflow runs in real-time, on a schedule, or based on specific triggers.
+
+    * Right Panel – Node Settings: When you click on a node, its configuration settings appear here. Each node has its own parameters that must be entered to complete the workflow setup before deployment.
+
+    Each predefined template starts with a Start Node, which serves as the entry point for records entering the workflow. The user specifies:
+
+    * Which segment to process.
+
+    * What records to include—either all records or only newly added records since the last run.
+  </Step>
+
+  <Step title="Deploy the Agent">
+    Once all **nodes** have been configured and their **required settings** are completed, you can proceed with finalizing your workflow.
+
+    1. Once everything is configured, click **"Deploy"** to activate the workflow.
+
+    2. Alternatively, click **"Save & Close"** to save it as a draft for future modifications or deployment.
+
+    This ensures that your workflow is fully set up and ready for execution, whether immediately or at a later stage.
+  </Step>
+</Steps>

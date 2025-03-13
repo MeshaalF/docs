@@ -1,0 +1,57 @@
+---
+title: "Create your own Agent"
+description: "Agents are automated workflows that process segmented data to generate insights and execute predefined actions. Each workflow consists of a structured sequence of steps, configurations, and logic links that drive automation."
+---
+
+Although templates streamline workflow creation for common use cases, some organizations may need to map a unique business process. In such cases, starting with an empty workflow canvas is recommended.
+
+This guide will walk you through the process of creating a workflow from scratch, starting with only the Start Node as the foundation.
+
+### Before you begin
+
+Ensure at least one connector and data model are set up before creating a workflow.
+In this example, we use BigQuery integration with a B2B data model
+
+<Steps>
+  <Step title="Open Select Agent Page">
+    Go to the Agents workspace home screen and click **'Create Agent'** to open the Segment Builder, where you can configure all settings for your new segment.
+  </Step>
+
+  <Step title="Create a New Agent">
+    Click on the **"+ New Agent"** card to begin creating a new workflow. You will be prompted to **enter a title** and **provide a description** for your workflow.
+
+    Once these details are entered, an **empty workflow canvas** will be created, ready for you to configure and customize according to your business requirements.
+  </Step>
+
+  <Step title="Start Adding Nodes">
+    **Adding Nodes to Your Workflow**
+
+    * The Start Node is automatically added as the entry point for nodes entering the workflow.
+
+    * Click on the (+) button to add additional nodes.
+
+    * A list of available nodes will appear on the left, each with a description of its function.
+
+    * Customize the workflow by adding and configuring additional nodes based on your business logic.
+
+    * Enter all required settings to ensure proper execution.
+
+    **Workflow Builder Structure**
+
+    The workflow builder consists of two primary sections:
+
+    * Left Panel – Nodes: This section contains the building blocks of the workflow. Nodes define the steps, logic, and execution method, determining whether the workflow runs in real-time, on a schedule, or based on specific triggers.
+
+    * Right Panel – Node Settings: When you click on a node, its configuration settings will appear here. Each node has its own parameters that must be entered to complete the workflow setup before deployment.
+  </Step>
+
+  <Step title="Deploy your Agent">
+    Once all **nodes** have been configured and their **required settings** are completed, you can proceed with finalizing your workflow.
+
+    1. Once everything is configured, click **"Deploy"** to activate the workflow.
+
+    2. Alternatively, click **"Save & Close"** to save it as a draft for future modifications or deployment.
+
+    This ensures that your workflow is fully set up and ready for execution, whether immediately or at a later stage.
+  </Step>
+</Steps>
