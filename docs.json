@@ -24,7 +24,11 @@
           {
             "group": "Essentials",
             "pages": [
-              "essentials/Segments"
+              "essentials/segments"
+              "essentials/segment-criteria"
+              "essentials/action-template"
+              "essentials/action-create"
+              "essentials/action-criteria"
             ]
           }
         ]
